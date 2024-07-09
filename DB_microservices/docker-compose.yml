@@ -1,0 +1,22 @@
+version: '3'
+services:
+  order-service:
+    build:
+      context: ./order-service
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api-gateway
+      - usr-services
+
+  api-gateway:
+    build:
+      context: ./api-gateway
+    ports:
+      - "4000:4000"
+
+  usr-services:
+    build:
+      context: ./user-service
+    ports:
+      - "5000:5000"
