@@ -1,2 +1,6 @@
-```/ --> (Get) Hello```
-```/ --> (Post) {email:"sdfsdf","password":"sdf23"}```
+```
+/ --> (Get) Hello
+```
+```
+/ --> (Post) {email:"sdfsdf","password":"sdf23"}
+```
