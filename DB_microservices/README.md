@@ -23,3 +23,7 @@ http://localhost:3000/create-order -- POST
 }
 
 ```
+#Running
+
+```
+docker-compose up  --build
