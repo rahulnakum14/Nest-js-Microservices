@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@nestjs/common": "^10.3.10",
+    "kafkajs": "^2.2.4",
+    "ts-node": "^10.9.2"
+  }
+}
