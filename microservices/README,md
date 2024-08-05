@@ -1,3 +1,0 @@
-Go inside every microservices and run npm run start.
-
-To start kafka  run docker-compose up 
